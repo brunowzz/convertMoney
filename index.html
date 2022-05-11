@@ -9,10 +9,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Convert Money</title>
+    <title>DevClub Convert Money</title>
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <h1>DevClub Convert Money</h1>
+        </header>
+        <main>
+            <label for="convert-from"> Converter de</label>
+            <select name="convert-from" id="">
+                <option value="convert-from"> R$ Real Brasileiro</option>
+            </select>
+
+            <label for="convert-to"> Converter Para </label>
+            <select name="convert-to" id="">
+                <option value="dolar"> US$ Dólar Americano</option>
+                <option value="euro"> € Euro</option>
+                <option value="bitcoin"> Bitcoin</option>
+            </select>
+
+            <label for="conversion-value"> Valor </label>
+            <input type="tel" name="conversion-value" placeholder="R$ 10.000,00">
+
+            <button type="button"> Converter </button>
+
+            <section>
+                <div>
+                    <img src="./assets/img/brasil.png" alt="brazil">
+                    <p> Real </p>
+                    <p> R$ 10.000,00 </p>
+                </div>
+
+                <img src="./assets/img/Vector.png" alt="arrow">
+                
+                <div>
+                    <img src="./assets/img/dolar us.png" alt="united-states">
+                    <p>Dólar Americano</p>
+                    <p>US$ 2.000,00</p>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
 
 </body>
 
